@@ -1,5 +1,5 @@
 {
-    "name": "pulse-app/pulse-php",
+    "name": "pulse-si/php",
     "description": "Cœur commun des paquets PHP de Pulse : rapports, sondes, tâches planifiées, journaux et mode sécurisé.",
     "type": "library",
     "license": "MIT",

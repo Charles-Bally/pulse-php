@@ -1,6 +1,6 @@
 # pulse-php
 
-Le cœur commun de [`pulse-laravel`](https://packagist.org/packages/pulse-app/pulse-laravel) et [`pulse-symfony`](https://packagist.org/packages/pulse-app/pulse-symfony). Tu n'as normalement pas à l'installer toi-même : c'est lui qui parle à l'API [Pulse](https://pulse-app.si), et cette page sert surtout à qui veut savoir exactement ce qui sort de son app.
+Le cœur commun de [`pulse-laravel`](https://packagist.org/packages/pulse-si/laravel) et [`pulse-symfony`](https://packagist.org/packages/pulse-si/symfony). Tu n'as normalement pas à l'installer toi-même : c'est lui qui parle à l'API [Pulse](https://pulse-app.si), et cette page sert surtout à qui veut savoir exactement ce qui sort de son app.
 
 ## Ce qu'il fait
 
@@ -42,7 +42,7 @@ Un lot de journaux, toutes les 10 secondes (chaque seconde quand quelqu'un regar
 { "entries": [{ "at": "2026-10-22T12:12:56.000Z", "level": "ERROR", "context": "production", "message": "Paiement refusé token=***" }] }
 ```
 
-En mode sécurisé, chacun devient `{ "sealed": { "v": 1, "kid", "enc", "ct" }, "clear": { … } }` où `clear` ne contient que ce que tu as choisi de laisser lisible. Le nettoyage des secrets, les limites de taille et le chiffrement sont ceux de [`@pulse-app/core`](https://www.npmjs.com/package/@pulse-app/core), à l'octet près.
+En mode sécurisé, chacun devient `{ "sealed": { "v": 1, "kid", "enc", "ct" }, "clear": { … } }` où `clear` ne contient que ce que tu as choisi de laisser lisible. Le nettoyage des secrets, les limites de taille et le chiffrement sont ceux de [`@pulse-si/core`](https://www.npmjs.com/package/@pulse-si/core), à l'octet près.
 
 ## Développement
 

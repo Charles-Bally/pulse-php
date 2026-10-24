@@ -9,7 +9,7 @@ use Pulse\Support\Text;
 
 final class Versions
 {
-    public const PULSE_PHP = '0.0.1';
+    public const PULSE_PHP = '0.0.2';
 
     public static function of(string $package, ?string $fallback = null): ?string
     {
